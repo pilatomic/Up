@@ -2,7 +2,7 @@
 #define MAINFORM_H
 
 // Qt referencces
-#include <QtGui/QMainWindow>
+#include <QMainWindow>
 #include <qmessagebox.h>
 #include <qfiledialog.h>
 #include <qcommandlinkbutton.h>
@@ -42,7 +42,7 @@ class MainForm : public QMainWindow
         Q_OBJECT
 
 public:
-        MainForm(QWidget *parent = 0, Qt::WFlags flags = 0);
+        MainForm(QWidget *parent = 0, Qt::WindowFlags flags = 0);
         ~MainForm();
 public slots:
         void OnLoadDevicesClick( void );

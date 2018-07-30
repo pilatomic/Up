@@ -148,66 +148,66 @@ QString StfsPackage::ContentType_s( void )
     switch (ContentType)
     {
     case STFS_CONTENT_TYPE_ARCADE_TITLE:
-        return QString::fromAscii("Arcade Title");
+        return QString::fromLocal8Bit("Arcade Title");
     case STFS_CONTENT_TYPE_AVATAR_ITEM:
-        return QString::fromAscii("Avatar Item");
+        return QString::fromLocal8Bit("Avatar Item");
     case STFS_CONTENT_TYPE_CACHE_FILE:
-        return QString::fromAscii("Cache File");
+        return QString::fromLocal8Bit("Cache File");
     case STFS_CONTENT_TYPE_COMMUNITY_GAME:
-        return QString::fromAscii("Community Game");
+        return QString::fromLocal8Bit("Community Game");
     case STFS_CONTENT_TYPE_GAME_DEMO:
-        return QString::fromAscii("Game Demo");
+        return QString::fromLocal8Bit("Game Demo");
     case STFS_CONTENT_TYPE_GAMER_PICTURE:
-        return QString::fromAscii("Gamer Picture");
+        return QString::fromLocal8Bit("Gamer Picture");
     case STFS_CONTENT_TYPE_GAME_TITLE:
-        return QString::fromAscii("Game Title");
+        return QString::fromLocal8Bit("Game Title");
     case STFS_CONTENT_TYPE_GAME_TRAILER:
-        return QString::fromAscii("Game Trailer");
+        return QString::fromLocal8Bit("Game Trailer");
     case STFS_CONTENT_TYPE_GAME_VIDEO:
-        return QString::fromAscii("Game Video");
+        return QString::fromLocal8Bit("Game Video");
     case STFS_CONTENT_TYPE_INSTALLED_GAME:
-        return QString::fromAscii("Installed Game");
+        return QString::fromLocal8Bit("Installed Game");
     case STFS_CONTENT_TYPE_INSTALLER:
-        return QString::fromAscii("Installer");
+        return QString::fromLocal8Bit("Installer");
     case STFS_CONTENT_TYPE_IPTV_PAUSE_BUFFER:
-        return QString::fromAscii("IPTV Pause Buffer");
+        return QString::fromLocal8Bit("IPTV Pause Buffer");
     case STFS_CONTENT_TYPE_LICENSE_STORE:
-        return QString::fromAscii("License Store");
+        return QString::fromLocal8Bit("License Store");
     case STFS_CONTENT_TYPE_MARKETPLACE_CONTENT:
-        return QString::fromAscii("Marketplace Content");
+        return QString::fromLocal8Bit("Marketplace Content");
     case STFS_CONTENT_TYPE_MOVIE:
-        return QString::fromAscii("Movie");
+        return QString::fromLocal8Bit("Movie");
     case STFS_CONTENT_TYPE_MUSIC_VIDEO:
-        return QString::fromAscii("Music Video");
+        return QString::fromLocal8Bit("Music Video");
     case STFS_CONTENT_TYPE_PODCAST_VIDEO:
-        return QString::fromAscii("Podcast Video");
+        return QString::fromLocal8Bit("Podcast Video");
     case STFS_CONTENT_TYPE_PROFILE:
-        return QString::fromAscii("Profile");
+        return QString::fromLocal8Bit("Profile");
     case STFS_CONTENT_TYPE_PUBLISHER:
-        return QString::fromAscii("Publisher");
+        return QString::fromLocal8Bit("Publisher");
     case STFS_CONTENT_TYPE_SAVED_GAME:
-        return QString::fromAscii("Saved Game");
+        return QString::fromLocal8Bit("Saved Game");
     case STFS_CONTENT_TYPE_STORAGE_DOWNLOAD:
-        return QString::fromAscii("Storage Download");
+        return QString::fromLocal8Bit("Storage Download");
     case STFS_CONTENT_TYPE_THEME:
-        return QString::fromAscii("Theme");
+        return QString::fromLocal8Bit("Theme");
     case STFS_CONTENT_TYPE_TV:
-        return QString::fromAscii("TV");
+        return QString::fromLocal8Bit("TV");
     case STFS_CONTENT_TYPE_VIDEO:
-        return QString::fromAscii("Video");
+        return QString::fromLocal8Bit("Video");
     case STFS_CONTENT_TYPE_VIRAL_VIDEO:
-        return QString::fromAscii("Viral Video");
+        return QString::fromLocal8Bit("Viral Video");
     case STFS_CONTENT_TYPE_XBOX_DOWNLOAD:
-        return QString::fromAscii("Xbox Download");
+        return QString::fromLocal8Bit("Xbox Download");
     case STFS_CONTENT_TYPE_XBOX_ORIGINAL_GAME:
-        return QString::fromAscii("Xbox Original Game");
+        return QString::fromLocal8Bit("Xbox Original Game");
     case STFS_CONTENT_TYPE_XBOX_SAVED_GAME:
-        return QString::fromAscii("Xbox Saved Game");
+        return QString::fromLocal8Bit("Xbox Saved Game");
     case STFS_CONTENT_TYPE_XBOX_360_TITLE:
-        return QString::fromAscii("Xbox 360 Title");
+        return QString::fromLocal8Bit("Xbox 360 Title");
     case STFS_CONTENT_TYPE_XNA:
-        return QString::fromAscii("XNA");
+        return QString::fromLocal8Bit("XNA");
     default:
-        return QString::fromAscii("STFS Package");
+        return QString::fromLocal8Bit("STFS Package");
     }
 }
